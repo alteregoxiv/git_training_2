@@ -1,6 +1,6 @@
 **Please find GIT assignment for today.**
 
-# H3You have to show me a working demo for each question. Also, write answers for each question in a git repo itself in the following hierarchy.
+You have to show me a working demo for each question. Also, write answers for each question in a git repo itself in the following hierarchy.
 
 Everyone will create the sperate branch of your name.
 Create a folder of your name in repository.
