@@ -1,0 +1,2 @@
+unstaging a single file : git restore "File Name"
+unstaging everyting : git restore --staged *
