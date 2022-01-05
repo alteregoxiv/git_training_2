@@ -1,2 +1,1 @@
-unstaging a single file : git reset head -- "path to file"
-unstaging everything(from root directory) : git reset head --
+unstaging a single file : git restore "File Name"
