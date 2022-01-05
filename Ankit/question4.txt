@@ -1,0 +1,2 @@
+Command to delete one or more commits permanently : 
+git resest --hard "commit-id"

@@ -1,0 +1,12 @@
+Cherry-pick is a command that helps to pick a commit from one branch and apply it to another.
+
+Use-case : if you have added a commit to wrong branch then you can switch to right branch and pick that particular commit and apply. 
+
+Steps:
+Say, we have commits a , b , c , d
+main branch commits are a and b
+branch 2 has commits c and d
+
+but commit d was originally meant for main branch so first we switch to the main branch using "git switch main" or "git checkout main"
+now we use the command "git cherry-pick d"
+

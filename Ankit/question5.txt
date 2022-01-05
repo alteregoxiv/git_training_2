@@ -1,0 +1,6 @@
+git push --force
+this commit will still push if there is extra commit on remote branch also it will delete extra commit after.
+git push --force-with-lease
+this command will push not let you push if there is extra commit on remote branch
+
+this can be used in the case of rebase command as it changes the commit hash and it can be differnt form github so we have to use git push --force
