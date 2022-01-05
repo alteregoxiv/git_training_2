@@ -7,3 +7,4 @@ git rebase -i Head~N
 -i stands for iterative mode
 N stands for number of previous commit 
 After this you can select a commit form the list of commit and use fixup to merge 2 commit 
+alternatively you can put squash in front of the two commit hash and then a second screen will pop up where you can put the commit message
