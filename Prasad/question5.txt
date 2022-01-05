@@ -1,0 +1,12 @@
+git push --force : push --force can destroy other commits of other users in a repository.
+    --force makes the head of the branch point to the users local history ignoring parallel
+    changes.
+    Say, a has pushed to the main repo. Then b tries to push to the master. This rebased branch will
+    be rejected. Now if b uses push --force to push the work then a's work will be erased. b may think
+    that its push was getting rejected because of the rebase and not a's push. So its better to use
+    --force-with-lease
+
+git push --force-with-lease : it will protect all remote refs that are going to be updated by requiring
+    their current value to be the same as the remote tracking branch. it does not overwrite any work on 
+    the remote branch if more commits were added to the remote branch. it ensures no one overwrites another
+    ones work.
