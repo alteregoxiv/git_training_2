@@ -1,0 +1,7 @@
+first we get the url for origin using : git remote get-url origin
+now we use cmd : git remote add "name" "url"
+now if we use git remote -v then we can see the remote repo has been added.
+
+it is easy to synchronize between multiple git repos, esspecially pushing
+to multiple remotes. it is helpful when people are maintaining copies or 
+mirrors of the same repo.
