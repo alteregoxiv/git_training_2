@@ -1,0 +1,9 @@
+We can comibine two commit into one commit using the git rebase command
+git rebase - this command has two use cases -
+1)An alternative to git merge
+2)A cleanup tool
+Steps to merge two commit
+git rebase -i Head~N
+-i stands for iterative mode
+N stands for number of previous commit 
+After this you can select a commit form the list of commit and use fixup to merge 2 commit 
